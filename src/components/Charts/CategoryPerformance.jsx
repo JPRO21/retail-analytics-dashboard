@@ -1,4 +1,8 @@
-const categoryNames = { apparel: "Apparel", home: "Home", accessories: "Accessories" };
+const categoryNames = {
+  "indoor plants": "Indoor plants",
+  "pots & planters": "Pots & planters",
+  "plant care": "Plant care"
+};
 
 export function CategoryPerformance({ data }) {
   const max = Math.max(...data.map((item) => item.revenue), 1);

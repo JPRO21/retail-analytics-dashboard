@@ -1,6 +1,10 @@
 import { Icon } from "../Icon.jsx";
 
-const categoryNames = { apparel: "Apparel", home: "Home", accessories: "Accessories" };
+const categoryNames = {
+  "indoor plants": "Indoor plants",
+  "pots & planters": "Pots & planters",
+  "plant care": "Plant care"
+};
 
 export function ProductTable({ products, threshold }) {
   const rows = [...products].sort((a, b) => a.stock - b.stock);

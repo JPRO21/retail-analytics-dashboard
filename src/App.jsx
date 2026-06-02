@@ -41,7 +41,7 @@ function App() {
   return (
     <div className="app-shell">
       <aside className="sidebar">
-        <div className="brand"><span>M</span><strong>meridian</strong></div>
+        <div className="brand"><span>B</span><strong>botanica</strong></div>
         <nav>
           <a className="nav-item nav-item--active" href="#overview"><Icon name="grid" />Overview</a>
           <a className="nav-item" href="#products"><Icon name="package" />Products</a>
@@ -53,15 +53,15 @@ function App() {
       <main className="main">
         <header className="topbar">
           <div>
-            <p className="eyebrow">Retail operations</p>
-            <h1>Executive overview</h1>
+            <p className="eyebrow">Botanical retail</p>
+            <h1>Greenhouse overview</h1>
           </div>
           <div className="topbar__actions">
             <button className="icon-button" aria-label="Search"><Icon name="search" /></button>
             <button className="icon-button has-dot" aria-label="Notifications"><Icon name="bell" /></button>
             <div className="profile">
-              <span>JR</span>
-              <div><strong>Juan Rodriguez</strong><small>Operations lead</small></div>
+              <span>BA</span>
+              <div><strong>Botanica Admin</strong><small>Nursery operations</small></div>
             </div>
           </div>
         </header>
@@ -69,9 +69,9 @@ function App() {
         <section className="content">
           <div className="content__heading">
             <div>
-              <p className="eyebrow">Live business snapshot</p>
-              <h2>Store performance</h2>
-              <p>Track sales momentum and surface inventory risk across the catalog.</p>
+              <p className="eyebrow">Live nursery snapshot</p>
+              <h2>Plant shop performance</h2>
+              <p>Track sales momentum and surface restock priorities across the botanical catalog.</p>
             </div>
             <span className="updated"><i />Updated today, 08:42</span>
           </div>

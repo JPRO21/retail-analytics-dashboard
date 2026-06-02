@@ -70,7 +70,7 @@ h2 { font-size: 17px; }
 .panel__header { display: flex; align-items: center; justify-content: space-between; padding: 16px 17px 0; }
 .chart-legend { display: flex; align-items: center; gap: 6px; color: #738078; font-size: 11px; }
 .chart-legend span { width: 8px; height: 8px; border-radius: 50%; background: #2f755a; }
-.chart-wrap { height: 255px; padding: 9px 9px 7px 4px; }
+.chart-wrap { min-width: 0; height: 255px; padding: 9px 9px 7px 4px; }
 .category-list { padding: 20px 17px 13px; }
 .category-row { margin-bottom: 18px; }
 .category-row__meta { display: flex; justify-content: space-between; color: #4a5851; font-size: 12px; }
